@@ -6,6 +6,6 @@ for letter in ("A".."C") do
   p letter
 end
 
-for letter in (1..4) do
-  p letter
+for i in (1..4) do
+  p i
 end
