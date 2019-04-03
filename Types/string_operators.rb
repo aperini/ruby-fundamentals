@@ -36,5 +36,5 @@ puts "   this is a sentence    ".strip!.capitalize!
 #gsub changes all occurences
 puts "<html><body><h1>My First Heading</h1></body></html>".gsub("<", "[").gsub(">", "]") #[html][body][h1]My First Heading[/h1][/body][/html]
 
-puts "none shall pass".split
-puts "none/shall/pass".split("/")
+puts "none shall pass".split.to_s # ["none", "shall", "pass"]
+puts "none/shall/pass".split("/").to_s # ["none", "shall", "pass"]

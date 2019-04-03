@@ -25,7 +25,7 @@ class String
     "won't tell you"
   end
 end
-puts "Fire".space_out.space_out
+puts "Fire".space_out
 puts "A very long string".size
 
 class String
@@ -34,6 +34,6 @@ class String
   end
 end
 
-puts "Fire".space_out
+puts "Fire".space_out.space_out
 puts "Fire".size
 
