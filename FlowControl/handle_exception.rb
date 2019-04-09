@@ -44,6 +44,7 @@ def execute
   1.upto(2) do |i|
     #ramdom boolean
     if ([true, false, false, false].sample)
+      # this raises an error
       puts "i= " + i
     end
   end
