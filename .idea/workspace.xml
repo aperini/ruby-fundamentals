@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0fc0ed4-975a-4dd9-96c0-5096e71bfd4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mix.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classesAndObjects/io.rb" beforeDir="false" afterPath="$PROJECT_DIR$/classesAndObjects/io.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,30 +13,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ruby_fundamentals@instance_vars.rcov" NAME="instance_vars Coverage Results" MODIFIED="1553712344313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-fundamentals" />
-    <SUITE FILE_PATH="coverage/ruby_fundamentals@io.rcov" NAME="io Coverage Results" MODIFIED="1553709305988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-fundamentals" />
-    <SUITE FILE_PATH="coverage/ruby_fundamentals@system.rcov" NAME="system Coverage Results" MODIFIED="1553710284726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-fundamentals" />
-    <SUITE FILE_PATH="coverage/ruby_fundamentals@private_methods.rcov" NAME="private_methods Coverage Results" MODIFIED="1553786950984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-fundamentals" />
-    <SUITE FILE_PATH="coverage/ruby_fundamentals@and_or.rcov" NAME="and_or Coverage Results" MODIFIED="1554815364137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classesAndObjects" MODULE_NAME="ruby-fundamentals" />
-    <SUITE FILE_PATH="coverage/ruby_fundamentals@initialize.rcov" NAME="initialize Coverage Results" MODIFIED="1553716046177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-fundamentals" />
-    <SUITE FILE_PATH="coverage/ruby_fundamentals@branching.rcov" NAME="branching Coverage Results" MODIFIED="1553867819040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FlowControl" MODULE_NAME="ruby-fundamentals" />
-    <SUITE FILE_PATH="coverage/ruby_fundamentals@class_method.rcov" NAME="class_method Coverage Results" MODIFIED="1553785239196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-fundamentals" />
+    <SUITE FILE_PATH="coverage/ruby_fundamentals@and_or.rcov" NAME="and_or Coverage Results" MODIFIED="1554906669735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classesAndObjects" MODULE_NAME="ruby-fundamentals" />
+    <SUITE FILE_PATH="coverage/ruby_fundamentals@decade.rcov" NAME="decade Coverage Results" MODIFIED="1554841810906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Modules" MODULE_NAME="ruby-fundamentals" />
+    <SUITE FILE_PATH="coverage/ruby_fundamentals@class_method.rcov" NAME="class_method Coverage Results" MODIFIED="1554906671878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classesAndObjects" MODULE_NAME="ruby-fundamentals" />
+    <SUITE FILE_PATH="coverage/ruby_fundamentals@initialize.rcov" NAME="initialize Coverage Results" MODIFIED="1554906676192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classesAndObjects" MODULE_NAME="ruby-fundamentals" />
     <SUITE FILE_PATH="coverage/ruby_fundamentals@test.rcov" NAME="methods Coverage Results" MODIFIED="1553710474414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-fundamentals" />
-    <SUITE FILE_PATH="coverage/ruby_fundamentals@object_equals.rcov" NAME="object_equals Coverage Results" MODIFIED="1554815401310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-fundamentals" />
+    <SUITE FILE_PATH="coverage/ruby_fundamentals@procs.rcov" NAME="procs Coverage Results" MODIFIED="1554906664035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Blocks" MODULE_NAME="ruby-fundamentals" />
     <SUITE FILE_PATH="coverage/ruby_fundamentals@virtual_attr.rcov" NAME="virtual_attr Coverage Results" MODIFIED="1553714110743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-fundamentals" />
     <SUITE FILE_PATH="coverage/ruby_fundamentals@protectec_methods.rcov" NAME="protectec_methods Coverage Results" MODIFIED="1553788537804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-fundamentals" />
-    <SUITE FILE_PATH="coverage/ruby_fundamentals@inheritance.rcov" NAME="inheritance Coverage Results" MODIFIED="1553779848347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-fundamentals" />
+    <SUITE FILE_PATH="coverage/ruby_fundamentals@execute_around_pattern.rcov" NAME="execute_around_pattern Coverage Results" MODIFIED="1554906657072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Blocks" MODULE_NAME="ruby-fundamentals" />
+    <SUITE FILE_PATH="coverage/ruby_fundamentals@closure.rcov" NAME="closure Coverage Results" MODIFIED="1554906653592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Blocks" MODULE_NAME="ruby-fundamentals" />
     <SUITE FILE_PATH="coverage/ruby_fundamentals@contitional_initialization.rcov" NAME="contitional_initialization Coverage Results" MODIFIED="1553870363728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FlowControl" MODULE_NAME="ruby-fundamentals" />
+    <SUITE FILE_PATH="coverage/ruby_fundamentals@yield.rcov" NAME="yield Coverage Results" MODIFIED="1554906666399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Blocks" MODULE_NAME="ruby-fundamentals" />
+    <SUITE FILE_PATH="coverage/ruby_fundamentals@vars.rcov" NAME="vars Coverage Results" MODIFIED="1554837855855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classesAndObjects" MODULE_NAME="ruby-fundamentals" />
+    <SUITE FILE_PATH="coverage/ruby_fundamentals@other_things.rcov" NAME="other_things Coverage Results" MODIFIED="1554906661751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Blocks" MODULE_NAME="ruby-fundamentals" />
+    <SUITE FILE_PATH="coverage/ruby_fundamentals@instance_vars.rcov" NAME="instance_vars Coverage Results" MODIFIED="1554906686727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classesAndObjects" MODULE_NAME="ruby-fundamentals" />
+    <SUITE FILE_PATH="coverage/ruby_fundamentals@io.rcov" NAME="io Coverage Results" MODIFIED="1554907229032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classesAndObjects" MODULE_NAME="ruby-fundamentals" />
+    <SUITE FILE_PATH="coverage/ruby_fundamentals@system.rcov" NAME="system Coverage Results" MODIFIED="1553710284726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-fundamentals" />
+    <SUITE FILE_PATH="coverage/ruby_fundamentals@private_methods.rcov" NAME="private_methods Coverage Results" MODIFIED="1553786950984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-fundamentals" />
+    <SUITE FILE_PATH="coverage/ruby_fundamentals@blocks_params.rcov" NAME="blocks_params Coverage Results" MODIFIED="1554930955079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Blocks" MODULE_NAME="ruby-fundamentals" />
+    <SUITE FILE_PATH="coverage/ruby_fundamentals@branching.rcov" NAME="branching Coverage Results" MODIFIED="1553867819040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FlowControl" MODULE_NAME="ruby-fundamentals" />
+    <SUITE FILE_PATH="coverage/ruby_fundamentals@object_equals.rcov" NAME="object_equals Coverage Results" MODIFIED="1554815401310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-fundamentals" />
+    <SUITE FILE_PATH="coverage/ruby_fundamentals@constants.rcov" NAME="constants Coverage Results" MODIFIED="1554839690341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Types" MODULE_NAME="ruby-fundamentals" />
+    <SUITE FILE_PATH="coverage/ruby_fundamentals@inheritance.rcov" NAME="inheritance Coverage Results" MODIFIED="1554906674242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classesAndObjects" MODULE_NAME="ruby-fundamentals" />
     <SUITE FILE_PATH="coverage/ruby_fundamentals@mokey_patching.rcov" NAME="mokey_patching Coverage Results" MODIFIED="1553800269970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-fundamentals" />
-    <SUITE FILE_PATH="coverage/ruby_fundamentals@vars.rcov" NAME="vars Coverage Results" MODIFIED="1553710362358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ruby-fundamentals" />
+    <SUITE FILE_PATH="coverage/ruby_fundamentals@mixins.rcov" NAME="mixins Coverage Results" MODIFIED="1554906635108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Modules" MODULE_NAME="ruby-fundamentals" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/classesAndObjects/object_equals.rb">
+        <entry file="file://$PROJECT_DIR$/Blocks/blocks_params.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="126">
+              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -67,17 +76,32 @@
         <option value="$PROJECT_DIR$/FlowControl/branching.rb" />
         <option value="$PROJECT_DIR$/FlowControl/contitional_initialization.rb" />
         <option value="$PROJECT_DIR$/classesAndObjects/and_or.rb" />
+        <option value="$PROJECT_DIR$/Blocks/yield.rb" />
+        <option value="$PROJECT_DIR$/Blocks/closure.rb" />
+        <option value="$PROJECT_DIR$/Blocks/procs.rb" />
+        <option value="$PROJECT_DIR$/Blocks/other_things.rb" />
+        <option value="$PROJECT_DIR$/classesAndObjects/vars.rb" />
+        <option value="$PROJECT_DIR$/Types/constants.rb" />
+        <option value="$PROJECT_DIR$/Modules/support.rb" />
+        <option value="$PROJECT_DIR$/Modules/decade.rb" />
+        <option value="$PROJECT_DIR$/Modules/week.rb" />
+        <option value="$PROJECT_DIR$/Modules/mixins.rb" />
+        <option value="$PROJECT_DIR$/classesAndObjects/io.rb" />
+        <option value="$PROJECT_DIR$/mix.txt" />
+        <option value="$PROJECT_DIR$/AboutGems.txt" />
+        <option value="$PROJECT_DIR$/AboutProjectStructure.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="1911" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1098" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -87,6 +111,11 @@
             <path>
               <item name="ruby-fundamentals" type="b2602c69:ProjectViewProjectNode" />
               <item name="ruby-fundamentals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruby-fundamentals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruby-fundamentals" type="462c0819:PsiDirectoryNode" />
+              <item name="Blocks" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -98,9 +127,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gen06857\projets\ruby-fundamentals" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\o520\Documents\workspace\pluralsight\ruby-fundamentals\classesAndObjects" />
     </key>
@@ -117,8 +151,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Ruby.object_equals">
-    <configuration name="and_or" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+  <component name="RunManager" selected="Ruby.blocks_params">
+    <configuration name="blocks_params" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="ruby-fundamentals" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Blocks" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Blocks/blocks_params.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="inheritance" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="ruby-fundamentals" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/classesAndObjects" />
@@ -128,73 +176,59 @@
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/classesAndObjects/and_or.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/classesAndObjects/inheritance.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="branching" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration name="initialize" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="ruby-fundamentals" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/FlowControl" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/classesAndObjects" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/FlowControl/branching.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/classesAndObjects/initialize.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="contitional_initialization" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration name="instance_vars" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="ruby-fundamentals" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/FlowControl" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/classesAndObjects" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/FlowControl/contitional_initialization.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/classesAndObjects/instance_vars.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="mokey_patching" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration name="io" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="ruby-fundamentals" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/classesAndObjects" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/classesAndObjects/mokey_patching.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="object_equals" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="ruby-fundamentals" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/classesAndObjects/object_equals.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/classesAndObjects/io.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Ruby.object_equals" />
-        <item itemvalue="Ruby.and_or" />
-        <item itemvalue="Ruby.contitional_initialization" />
-        <item itemvalue="Ruby.branching" />
-        <item itemvalue="Ruby.mokey_patching" />
+        <item itemvalue="Ruby.blocks_params" />
+        <item itemvalue="Ruby.io" />
+        <item itemvalue="Ruby.instance_vars" />
+        <item itemvalue="Ruby.initialize" />
+        <item itemvalue="Ruby.inheritance" />
       </list>
     </recent_temporary>
   </component>
@@ -211,23 +245,35 @@
       <updated>1553697436412</updated>
       <workItem from="1553697439383" duration="31790000" />
       <workItem from="1554815009487" duration="405000" />
+      <workItem from="1554823762985" duration="12144000" />
+      <workItem from="1554902425108" duration="684000" />
+      <workItem from="1554903846251" duration="964000" />
+      <workItem from="1554904882792" duration="783000" />
+      <workItem from="1554905747920" duration="7000" />
+      <workItem from="1554905886115" duration="5419000" />
+      <workItem from="1554929803761" duration="345000" />
+      <workItem from="1554930509173" duration="87000" />
+      <workItem from="1554930790285" duration="920000" />
+      <workItem from="1554985701796" duration="3590000" />
+      <workItem from="1555003113900" duration="854000" />
+      <workItem from="1555014063298" duration="1135000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32195000" />
+    <option name="totallyTimeSpent" value="59127000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="1911" y="-9" width="1938" height="1098" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18098818" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21298283" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49925372" weight="0.3298731" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785176" visible="true" weight="0.30960453" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49624062" weight="0.3290461" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.40128756" weight="0.3083512" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49892703" weight="0.3993576" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -235,7 +281,8 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49946293" weight="0.3299435" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5021482" side_tool="true" visible="true" weight="0.30960453" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005365" side_tool="true" visible="true" weight="0.32976446" />
+      <window_info active="true" anchor="bottom" id="Inspection Results" order="12" sideWeight="0.49946353" visible="true" weight="0.32976446" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -245,30 +292,21 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="ruby-exception">
+          <properties />
+        </breakpoint>
+        <breakpoint enabled="true" type="javascript-exception">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/virtual_attrs.rb" />
     <entry file="file://$PROJECT_DIR$/virtual.rb" />
-    <entry file="file://$PROJECT_DIR$/classesAndObjects/instance_vars.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="13" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classesAndObjects/vars.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classesAndObjects/io.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classesAndObjects/system.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -346,6 +384,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/classesAndObjects/object_equals.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blocks/yield.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs25/proc.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs25/object.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="512" column="8" selection-start-line="512" selection-start-column="8" selection-end-line="512" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Types/arrays.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blocks/closure.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blocks/procs.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classesAndObjects/instance_vars.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" selection-start-line="13" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classesAndObjects/vars.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Types/constants.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/decade.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/week.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/mixins.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blocks/other_things.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/classesAndObjects/initialize.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -353,12 +485,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classesAndObjects/object_equals.rb">
+    <entry file="file://$PROJECT_DIR$/classesAndObjects/io.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="63">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AboutProjectStructure.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AboutGems.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blocks/blocks_params.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
