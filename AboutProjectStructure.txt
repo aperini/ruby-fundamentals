@@ -1,0 +1,21 @@
+# Some conventions
+
+project_deep_space
+- bin/
+- doc/
+- lib/
+  - deep_space/
+    - spaceship.rb
+    - probe.rb
+  - deep_space.rb
+- test/
+- init.rb
+
+
+bin: executable utilities, for libs that come with some executables
+doc: if you need to include some documentation
+lib: each app module gets a corresponding dir under lib/
+deep_space: a module has a corresponding folder. It has two classes (Spaceship and Probe)
+deep_space.rb: it's a convenience file that includes all other necessary files, so that in the app code I need only to include deep_space.rb
+test: contains the tests
+init.rb: contains the main application code. It may include the deep_space.rb and kick off the app logic

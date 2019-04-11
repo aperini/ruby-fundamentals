@@ -1,0 +1,19 @@
+# searching gems
+
+gem search -l log4r # local
+gem search -r log4r # remote
+
+# installing gems
+
+gem install log4r
+gem uninstall log4r
+
+# bundler is also a gem.
+# It provides a consistent environment for Ruby projects by tracking and installing the exact gems and versions that are needed
+gem install bundler
+
+# Gems are specified in the Gemfile if you're building an application the is not a gem project
+
+# Otherwise, if it' a Gem project, it's properties are specified in a *.gemspec file and referenced in Gemfile
+# a *.gemspec contains the metadata for the gem project in the form of ruby code
+# OCRA plugin(gem) does the job to package the app. It produces an .exe file that can run without ruby installed
