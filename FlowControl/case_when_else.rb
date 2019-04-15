@@ -2,14 +2,14 @@ value = 1
 
 # case when for values
 signal = case value
-         when -1 then "negative"
-         when 0 then "positive"
-         when 1 then "positive"
-         else "undetermined"
-           #else serves as a catch all clause
+         when -1 then 'negative'
+         when 0 then 'positive'
+         when 1 then 'positive'
+         else 'undetermined'
+           # else serves as a catch all clause
          end
 
-puts "signal " + signal
+puts 'signal ' + signal
 
 # case when for objects
 class Probe
@@ -23,13 +23,13 @@ when Probe
 when Thruster
   puts "it's a Thruster instance"
 else
-  puts "instance of another class"
+  puts 'instance of another class'
 end
 
 # case for conditions
 case
 when (0 > 1)
-  puts "something went wrong with math"
+  puts 'something went wrong with math'
 when (1 > 0)
-  puts "math is ok"
+  puts 'math is ok'
 end

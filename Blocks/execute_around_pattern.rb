@@ -1,4 +1,4 @@
-# Execute Around pattern
+# The "Execute Around" pattern
 
 # Collect Timing (simple example)
 def with_timing
@@ -21,20 +21,25 @@ with_timing do
 end
 
 # Implement a transaction (a more complex example)
-class DBError < Exception; end
+class DBError < RuntimeError; end
 
+# document class
 class Database
   def start_transaction
-    puts "Starting transaction..."
-  end
-  def rollback_transaction
-    puts "Rolling-back transaction..."
-  end
-  def commit_transaction
-    puts "Commiting transaction..."
+    puts 'Starting transaction...'
   end
 
-  def log_error(message) puts message.to_s end
+  def rollback_transaction
+    puts 'Rolling-back transaction...'
+  end
+
+  def commit_transaction
+    puts 'Committing transaction...'
+  end
+
+  def log_error(message)
+    puts message.to_s
+  end
 
   def transaction
     start_transaction
@@ -50,19 +55,20 @@ class Database
 
   def load_files_without_error
     transaction do
-      puts "loading files..."
-      puts "files loaded"
+      puts 'loading files...'
+      puts 'files loaded'
     end
   end
 
   def load_files_with_error
     transaction do
-      puts "hey, something went wrong"
-      raise DBError, "Error details: could not read file A."
+      puts 'hey, something went wrong'
+      raise DBError, 'Error details: could not read file A.'
     end
   end
 
-  private :start_transaction, :rollback_transaction, :commit_transaction, :log_error, :transaction
+  private :start_transaction, :rollback_transaction, :commit_transaction,
+          :log_error, :transaction
 end
 
 db = Database.new

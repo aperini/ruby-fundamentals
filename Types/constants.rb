@@ -5,11 +5,11 @@ MAX_SPEED = 1000
 MAX_SPEED = 10
 
 # Freezing it
-TYPES = ["abc"]
+TYPES = ['abc']
 TYPES.freeze
 
 # RTE  can't modify frozen Array (FrozenError)
-# TYPES << "def"
+# TYPES << 'def'
 
 puts "Is TYPES frozen? #{TYPES.frozen?}"
 
@@ -19,9 +19,9 @@ puts TYPES[0] # ABC
 
 # A constant defined outside a class or module is visible throughout the program
 # But to reference a constant from a class, we use the :: operator
-
-class A
+# document this class
+class ClassA
   MAX_SPEED = 1000
 end
 
-puts A::MAX_SPEED
+puts ClassA::MAX_SPEED

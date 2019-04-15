@@ -1,54 +1,53 @@
-def cruiserSpeed?(speed)
+def cruiser_speed?(speed)
   case
   when speed < 5
-    puts "not cruiser speed"
+    puts 'not cruiser speed'
     false
   when speed >= 5
-    puts "cruiser speed"
+    puts 'cruiser speed'
     true
   end
 end
 
 def accelerate(speed)
   speed += 1
-  puts "accelerating to " + speed.to_s
+  puts 'accelerating to ' + speed.to_s
   speed
 end
 
-puts "--until--"
+puts '--until--'
 speed = 0
-until cruiserSpeed?(speed)
-  speed = accelerate(speed)
-end
 
-puts "--until 2--"
+until cruiser_speed?(speed); speed = accelerate(speed) end
+
+puts '--until 2--'
 speed = 0
-speed = accelerate(speed) until cruiserSpeed?(speed)
+speed = accelerate(speed) until cruiser_speed?(speed)
 
-puts "--until 3--"
+puts '--until 3--'
 speed = 0
 begin
   # block of commands
   speed = accelerate(speed)
-end until cruiserSpeed?(speed)
+end until cruiser_speed?(speed)
 
-puts "--while--"
+puts '--while--'
 speed = 0
-while !cruiserSpeed?(speed)
+while !cruiser_speed?(speed)
   speed = accelerate(speed)
 end
 
-puts "--while 2--"
+puts '--while 2--'
 speed = 0
-speed = accelerate(speed) while !cruiserSpeed?(speed)
+speed = accelerate(speed) while !cruiser_speed?(speed)
 
-puts "--while 3--"
+puts '--while 3--'
 speed = 0
 begin
   # block of commands
   speed = accelerate(speed)
-end while !cruiserSpeed?(speed)
+end while !cruiser_speed?(speed)
 
-puts "--while do--"
+puts '--while do--'
 speed = 0
-while !cruiserSpeed?(speed) do speed = accelerate(speed) end
+while !cruiser_speed?(speed) do speed = accelerate(speed) end

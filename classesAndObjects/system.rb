@@ -5,6 +5,7 @@ puts time
 # the #? returns information of the last process
 puts $?
 
-# system "run in another process", blocking, and returns the execution result (0, 1 or nil)
-puts system "time /t"
+# system "runs in another process", blocking,
+# and returns the execution result (0, 1 or nil)
+puts system 'time /t'
 puts $?

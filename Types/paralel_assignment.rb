@@ -39,7 +39,7 @@ puts b.to_s # [2, 3]
 puts d # 4
 puts e # 5
 puts
-# * can be in the side of the values, to slpit an array into values
+# * can be in the side of the values, to split an array into values
 
 a, b, c = *[1, 2, 3]
 puts a # 1
@@ -63,10 +63,10 @@ puts c.to_s # [3, 4]
 puts
 
 # The * can be used with any object. Actually it executes the method to_a
-class A
+class ClassA
   def initialize(name)
     @name = name
-    @type = "type"
+    @type = 'type'
   end
 
   def to_a
@@ -74,5 +74,4 @@ class A
   end
 end
 
-p [*A.new("A")] #[:@name, :@type]
-
+p [*ClassA.new('A')] # [:@name, :@type]

@@ -1,4 +1,4 @@
 #!/usr/bin/ruby
-print "Enter your name:"
+print 'Enter your name:'
 name = gets
-puts "Your name is: " + name
+puts 'Your name is: ' + name

@@ -1,8 +1,8 @@
-for letter in ["A", "B", "C"] do
+for letter in ['A', 'B', 'C'] do
   p letter
 end
 
-for letter in ("A".."C") do
+for letter in ('A'..'C') do
   p letter
 end
 

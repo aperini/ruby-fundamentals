@@ -1,29 +1,32 @@
+# document this class
 class Probe
   def deploy(deploy_time, return_time)
-    puts "Deploying"
+    puts 'Deploying'
   end
+
   def take_sample
-    puts "Take sample"
+    puts 'Take sample'
   end
 end
+
 probe = Probe.new
-probe.deploy(10,20)
+probe.deploy(10, 20)
 probe.take_sample
 
-###################
+# document this class
 class MineralProbe < Probe
   def deploy(deploy_time)
-
-    #super
+    # super
     # it passes all args of this method (1 arg) and it w'ont work (missing one)
     super(deploy_time, Time.now)
   end
+
   def take_sample
-    puts "Take mineral sample"
+    puts 'Take mineral sample'
   end
 end
-mineralProbe = MineralProbe.new
-# mineralProbe.deploy(10,20) doesn't work because the overriden method has only one arg
-mineralProbe.deploy(10)
-mineralProbe.take_sample
 
+mineral_probe = MineralProbe.new
+# mineralProbe.deploy(10,20) doesn't work (overridden method has only 1 arg)
+mineral_probe.deploy(10)
+mineral_probe.take_sample

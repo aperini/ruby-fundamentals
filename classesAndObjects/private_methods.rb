@@ -1,8 +1,8 @@
-#######################
+# #####################
 # private object methods
-#######################
-class A
-
+# #####################
+# document this class
+class ClassA
   @@class_variable = 5
 
   # public
@@ -10,24 +10,24 @@ class A
     puts deploy2
   end
 
-  #private
+  # private
   # putting private here will turn private all object methods below
 
   def deploy2
-    "Deploy time is: " + @@class_variable.to_s
+    'Deploy time is: ' + @@class_variable.to_s
   end
 
   # or declare private methods like this
   private :deploy2
 end
 
-A.new.deploy1
+ClassA.new.deploy1
 
 #######################
 # private class method
 #######################
-class B
-
+# document this class
+class ClassB
   @@class_variable = 5
 
   # public class method
@@ -36,23 +36,23 @@ class B
   end
 
   def self.deploy2
-    "Deploy time is: " + @@class_variable.to_s
+    'Deploy time is: ' + @@class_variable.to_s
   end
 
   # private class methods are only declared like this
   private_class_method :deploy2
 end
 
-B.deploy1
+ClassB.deploy1
 
-#######################
+# #####################
 # inheritance
-#######################
-
-class C < B
+# #####################
+# document this class
+class ClassC < ClassB
   def initialize
     puts self.class.deploy1
   end
 end
 
-C.new
+ClassC.new

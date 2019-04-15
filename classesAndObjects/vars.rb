@@ -1,4 +1,3 @@
-
 lander_count = 10
 
 def inner_variable
@@ -13,5 +12,6 @@ $global_var = 1
 puts $global_var
 
 nil_val = nil
+
 puts nil_val.class
 puts nil_val

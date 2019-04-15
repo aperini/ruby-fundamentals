@@ -1,34 +1,29 @@
 # /regex/
 
-numRegex = "/\d+/"
-numRegex = %r(\d+)
+num_regex = '/\d+/'
+num_regex = %r(\d+)
 
 # =~ evaluates the regex and returns the position where it matches
-puts result = numRegex =~ "abc8ef" # 3 ()
+puts result = num_regex =~ 'abc8ef' # 3 ()
 
-# checks the absense (returns true or false)
-puts result = numRegex !~ "abcef" # true (does not contain)
+# checks the absence (returns true or false)
+puts result = num_regex !~ 'abcef' # true (does not contain)
 
-matchResult = numRegex.match("abc88efgh")
-p matchResult # #<MatchData "88">
-puts matchResult # 88
-puts matchResult[0] # 88 also visible in $&
+match_result = num_regex.match('abc88efgh')
+p match_result # #<MatchData '88'>
+puts match_result # 88
+puts match_result[0] # 88 also visible in $&
 puts $&
-puts matchResult.pre_match # abc also visible in $`
+puts match_result.pre_match # abc also visible in $`
 puts $`
-puts matchResult.post_match # efgh also visible in $'
+puts match_result.post_match # efgh also visible in $'
 puts $'
 
-
 # use scan to recover all matches
-
-numsRegex = "/\d/"
-puts "1a2b3c4d".scan(numRegex)
+puts 'scan'
+nums_regex = %r(\d)
+puts '1a2b3c4d'.scan(nums_regex)
 
 # combine gsub with regex
-wordsRegex = /([a-zA-Z]+) ([a-zA-Z]+)/
-puts "Mr " + "Augusto Perini".gsub(wordsRegex, '\2, \1') # Mr Perini, Augusto
-
-
-
-
+words_regex = /([a-zA-Z]+) ([a-zA-Z]+)/
+puts 'Mr ' + 'Augusto Perini'.gsub(words_regex, '\2, \1') # Mr Perini, Augusto

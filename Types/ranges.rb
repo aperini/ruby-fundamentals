@@ -15,20 +15,19 @@ puts (1...5).include? 5 # false
 puts (1..5).include? (1..5).end # true
 puts (1...5).include? (1...5).end # true
 
-("aa".."ad").each {|v| puts v}
+('aa'..'ad').each { |v| puts v }
 
-puts ("aa".."ad").to_a.to_s # ["aa", "ab", "ac", "ad"]
+puts ('aa'..'ad').to_a.to_s # ['aa', 'ab', 'ac', 'ad']
 
 temperature = -10
 
 # Ranges in CASE-WHEN
-message = "the temperature is " +
+message = 'the temperature is ' +
          case temperature
-         when -50...0 then "freezing"
-         when 0..10 then "cold"
-         when 11..25 then "normal"
-         else "hot"
+         when -50...0 then 'freezing'
+         when 0..10 then 'cold'
+         when 11..25 then 'normal'
+         else 'hot'
          end
 
 puts message.capitalize! # The temperature is freezing
-

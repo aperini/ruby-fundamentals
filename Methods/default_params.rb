@@ -1,5 +1,5 @@
+# document this class
 class Work
-
   attr_accessor :default_start
   attr_accessor :default_end
   attr_accessor :type
@@ -9,21 +9,17 @@ class Work
     self.default_end = 17
   end
 
-  def start(init = default_start, fin = default_end, type = :temps_plein)
-    puts "init " + init.to_s
-    puts "fin " + fin.to_s
-    puts "type " + type.to_s
-
-    puts "is 35h" if (type == :temps_plein)
+  def start(init = default_start, fin = default_end, type = :full_time)
+    puts 'init ' + init.to_s
+    puts 'fin ' + fin.to_s
+    puts 'type ' + type.to_s
+    puts 'is 35h' if type == :full_time
   end
 
-  def workWeek(isFull, *freeDays)
-    isFull ?
-        (puts "week is full") :
-
-    unless isFull
-      (puts "free days " + freeDays.to_s)
-    else (puts "week is full") end
+  def work_week(is_full, *free_days)
+    is_full ?
+      (puts 'week is full') :
+        (puts "free days #{free_days}")
   end
 end
 
@@ -35,13 +31,13 @@ puts Work.new.start(9)
 puts
 puts Work.new.start(8.5, 16.5)
 puts
-puts Work.new.start(9, 13, :temps_partiel)
+puts Work.new.start(9, 13, :partial)
 
-puts Work.new.workWeek(true)
-puts Work.new.workWeek(false, :friday)
+puts Work.new.work_week(true)
+puts Work.new.work_week(false, :friday)
 
 # we can split an array as *
-freeDays = [:thursday, :friday]
-puts Work.new.workWeek(false, *freeDays)
+free_days = [:thursday, :friday]
+puts Work.new.work_week(false, *free_days)
 # same as
-puts Work.new.workWeek(false, :thursday, :friday)
+puts Work.new.work_week(false, :thursday, :friday)

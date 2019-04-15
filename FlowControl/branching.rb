@@ -1,29 +1,28 @@
-lang = "fr"
+lang = 'fr'
 
-message = if lang == "fr" then "French" else "English" end
+message = if lang == 'fr' then 'French' else 'English' end
 puts message
 
-message = "English" if lang == "eng"
+message = 'English' if lang == 'eng'
 puts message
 
-newLang = lang
+new_lang = lang
 
 # elsif
-if !newLang
-  puts "was nil"
-elsif newLang == "English"
-  puts "was English!"
+if !new_lang
+  puts 'was nil'
+elsif new_lang == 'English'
+  puts 'was English!'
 else
-  puts "was " + newLang
+  puts 'was ' + new_lang
 end
 
-# unless (same as "if false")
-unless newLang
-  puts "language undefined"
+# unless (same as 'if false')
+unless new_lang
+  puts 'language undefined'
 end
 
 # ternary ?
-puts lang == "eng" ?
-         "English" :
-         "French"
-
+puts lang == 'eng' ?
+         'English' :
+         'French'

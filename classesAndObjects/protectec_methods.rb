@@ -1,9 +1,10 @@
+# document this class
 class Spaceship
   attr_reader :speed
   protected :speed
 
   def initialize
-    @speed = "Slow"
+    @speed = 'Slow'
   end
 
   def speed_matches?(other)
@@ -11,9 +12,10 @@ class Spaceship
   end
 end
 
+# document this class
 class FastSpaceship < Spaceship
   def initialize
-    @speed = "Fast"
+    @speed = 'Fast'
   end
 end
 
