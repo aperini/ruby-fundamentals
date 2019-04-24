@@ -14,10 +14,5 @@ class Probe1 < Probe
   @@class_variable = 1
 end
 
-# document this class
-class Probe2 < Probe
-  @@class_variable = 2
-end
-
 # will output 2 (Probe 2 puts new value in its declaration)
-puts Probe.deploy
+puts Probe.deploy # Deploy time is: 1
